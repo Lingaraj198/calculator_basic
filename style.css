@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    color: white;
+    background-color: black;
+}
+h1{
+    padding: 10px;
+    font-size: 7rem;
+    color: white;
+}
+h1 a{
+    color: white;
+    text-decoration: none;
+}
+h1 a:hover{
+    color: rgb(253, 180, 43);
+}
+
+input{
+    color: white;
+    padding: 20px auto 0px;
+    font-size: 5rem;
+    background-color: black;
+    width: 26.75%;
+    border: white 1px solid;
+}
+
+input::placeholder{
+    color: white;
+}
+
+table{
+    background-color: rgb(40, 40, 40);
+    margin: 0 20px;
+}
+
+td button{
+    background-color: transparent;
+    font-size: 3rem;
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 20px 30px;
+}
+
+
+td{
+    font-size: 3rem;
+    color: white;
+    border: 2px black solid;
+}
+
+td:hover , td button:hover{
+    color: white;
+    background-color: rgb(40, 40, 40);
+}
+td button:hover{
+    background-color: white;
+    color: black;
+    width: 100%;
+}
+.special_items{
+    background-color: rgb(253, 180, 43);
+    color: white;
+}
+
+.special_items:hover{
+    background-color: white;
+    color: black;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+   
+    <center>
+        <h1><a href="index.html">C a l c u l a t o r</a></h1>
+        <!-- <p id="display" aria-placeholder="calculate "></p> -->
+        <table>
+            <tr>
+                <input type="text" name="textbox" id="display">
+            </tr>
+            <tr>
+                <td colspan="4" class="special_items" class="box"><button onclick="clearDisplay()">C</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="enterd(event)">1</button></td>
+                <td><button onclick="enterd(event)">2</button></td>
+                <td><button onclick="enterd(event)">3</button></td>
+                <td class="special_items"><button onclick="enterd(event)">+</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="enterd(event)">4</button></td>
+                <td><button onclick="enterd(event)">5</button></td>
+                <td><button onclick="enterd(event)">6</button></td>
+                <td class="special_items"><button onclick="enterd(event)">-</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="enterd(event)">7</button></td>
+                <td><button onclick="enterd(event)">8</button></td>
+                <td><button onclick="enterd(event)">9</button></td>
+                <td class="special_items"><button onclick="enterd(event)">*</button></td>
+            </tr>
+            <tr>
+                <td class="special_items"><button onclick="enterd(event)">%</button></td>
+                <td class="special_items"><button onclick="enterd(event)">0</button></td>
+                <td class="special_items"><button onclick="calculate()">=</button></td>
+                <td class="special_items"><button onclick="enterd(event)">/</button></td>
+            </tr>
+        </table>
+    </center>
+
+</body>
+</html>
